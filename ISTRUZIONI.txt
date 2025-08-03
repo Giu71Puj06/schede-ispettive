@@ -1,0 +1,27 @@
+
+📄 GUIDA RAPIDA - GENERATORE SCHEDE ISPETTIVE (VERSIONE LOCALE)
+
+1. REQUISITI
+- Python installato sul PC (scaricabile da https://www.python.org)
+- Una connessione internet per installare Streamlit (solo la prima volta)
+
+2. INSTALLAZIONE STREAMLIT (una tantum)
+Apri il Prompt dei comandi e digita:
+    pip install streamlit pandas python-docx
+
+3. AVVIO DELL'APPLICAZIONE
+Apri il terminale (Prompt dei comandi o PowerShell), vai nella cartella dove hai salvato i file ed esegui:
+    streamlit run schede_ispettive_webapp.py
+
+4. UTILIZZO
+- Si aprirà il browser all'indirizzo http://localhost:8501
+- Carica il file Excel ToDo (.xlsx)
+- Carica il template Word (template_scheda.docx)
+- Clicca su "Genera Scheda Ispettiva" e scarica il file generato
+
+📁 CONTENUTO DELLA CARTELLA:
+- schede_ispettive_webapp.py → lo script dell’app
+- template_scheda.docx → il modello Word da usare (da aggiungere manualmente)
+- ISTRUZIONI.txt → questo file
+
+ℹ️ In caso di problemi, contatta Giuseppe.
